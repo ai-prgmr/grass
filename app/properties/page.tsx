@@ -145,6 +145,7 @@ const Properties = () => {
   const [selectedProperty, setSelectedProperty] = useState<Property | null>(
     null
   );
+  console.log(selectedProperty);
   const handlePropertyClick = (property: Property) => {
     setSelectedProperty(property);
   };
